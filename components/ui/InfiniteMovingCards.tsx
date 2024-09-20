@@ -87,7 +87,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="relative w-[40vw] max-w-full flex-shrink-0 rounded-2xl border border-b-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
+            className="relative w-[30vw] max-w-full flex-shrink-0 rounded-2xl border border-b-0 border-slate-800 p-5 md:p-16 md:w-[60vw]"
             style={{
               background: "rgb(4,7,29)",
               backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
@@ -118,12 +118,14 @@ export const InfiniteMovingCards = ({
                 <span className="text-sm leading-[1.6] text-white-200 font-normal">
                   {item.title}
                 </span>
+                {/** 
                 <a
                   href={item.caseStudyLink}
                   className="w-40 bg-gradient-to-r from-cyan-600 to-teal-500 text-white hover:bg-gradient-to-r hover:from-teal-500 hover:to-cyan-600 font-semibold py-2 px-4 rounded-lg text-sm inline-block transition-all duration-300 text-center mt-7"
                 >
                   Read Case Study
                 </a>
+                */}
               </div>
             </div>
           </li>
