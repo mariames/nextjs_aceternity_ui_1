@@ -6,8 +6,7 @@ import Leaders from "@/components/Leaders";
 import { StickyScrollRevealDemo } from "@/components/StickyScrollDemo";
 import Clients from "@/components/Clients";
 import Footer from "@/components/Footer";
-//
-//import { VideoYT } from "@/components/VideoYT";
+
 
 export default function Home() {
   return (
@@ -19,7 +18,7 @@ export default function Home() {
       <Leaders/>
       <StickyScrollRevealDemo />
       <Clients />
-      <Footer />
+      <Footer />      
     </main>
   );
 }

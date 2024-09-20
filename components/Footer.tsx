@@ -13,7 +13,7 @@ const Footer = () => {
           <span className="max-md:hidden"> &nbsp;|&nbsp; </span>
           <a href="terms">Terms</a>
           <span className="max-md:hidden"> &nbsp;|&nbsp; </span>
-          <a href="privacy police">Privacy Police</a>
+          <a href="#">Privacy Police</a>
           <span className="max-md:hidden"> &nbsp;|&nbsp; </span>
           <a href="vs">Kompyte vs Klue | Kompyte vs Crayon</a>
         </div>
