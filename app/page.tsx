@@ -1,8 +1,9 @@
 import { Navbar } from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import { InfoCards } from "@/components/InfoCard";
+import Competitors from "@/components/Competitors";
 //import Clients from "@/components/Clients";
-//import Competitors from "@/components/Competitors";
+//
 //import Footer from "@/components/Footer";
 
 //
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <InfoCards />
+      <Competitors/>
     </main>
   );
 }
@@ -26,7 +28,7 @@ export default function Home() {
       
       
       
-      <Competitors/>
+      
       <Leaders/>
       <StickyScrollRevealDemo />
       <Clients />
