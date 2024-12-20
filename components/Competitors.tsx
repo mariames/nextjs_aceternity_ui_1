@@ -1,5 +1,4 @@
 import React from 'react'
-import { InfoCard } from './InfoCard'
 import { GlobeDemo } from './ui/GridGlobe'
 
 const Competitors = () => {

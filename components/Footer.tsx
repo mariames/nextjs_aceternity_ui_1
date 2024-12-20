@@ -1,7 +1,4 @@
 import React from "react";
-import MagicButton from "./ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
-import BackgroundText from "./BackgroundText";
 
 const Footer = () => {
     return (
