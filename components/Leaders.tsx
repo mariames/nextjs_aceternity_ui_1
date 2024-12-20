@@ -24,21 +24,3 @@ const Leaders = () => {
 }
 
 export default Leaders;
-
-          {/**
-           * 
-
-          <p className='px-4 md:px-8 lg:px-10 mt-12 text-slate-300'>Trusted by</p>
-          <div className='px-10 flex flex-wrap gap-4 mt-4'>
-            {logos.map((logo, index) => (
-              <Image
-                key={index}
-                src={logo.src}
-                alt={logo.alt}
-                //className='h-12 object-contain'
-                width={150}
-                height={150}
-              />
-            ))}
-          </div>
-                     */}

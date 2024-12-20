@@ -73,7 +73,6 @@ export const testimonials = [
       nameImg: "/dockerName.svg",
     },
   ];
-
 export const logos = [
     { src: '/BetMGM-full-white-1.svg', alt: 'BetMGM' },
     { src: '/Influitive-Logo-Full-white.svg', alt: 'Influitive' },
